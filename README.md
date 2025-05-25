@@ -27,7 +27,7 @@ Aplikasi chatbot kesehatan mental yang menggunakan Google Gemini AI untuk member
 1. Clone repository ini
 
 ```bash
-git clone [URL_REPOSITORY]
+git clone https://github.com/Isaaja/mental_health_chatbot.git
 cd mental_health_chatbot
 ```
 
@@ -92,11 +92,3 @@ node app.js
    - Tahap 1: Masalah awal
    - Tahap 2: Pertanyaan lanjutan
    - Tahap 3: Solusi dan saran
-
-## Kontribusi
-
-Silakan buat pull request untuk kontribusi. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan perubahan yang diinginkan.
-
-## Lisensi
-
-[MIT](https://choosealicense.com/licenses/mit/)
