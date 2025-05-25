@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mental Health Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-blue-100">
+<!-- Header -->
+    <div class="flex items-center space-x-0 ">
+      <img src="assets/robot1.png" class="w-27 h-20 rounded-30 ml-8"  />
+        <h2>Chatbot MentalHealth</h2>
+    </div>
+      <!-- Chat Area -->
+      <div id="chat" class="flex-1 overflow-y-auto mb-4 bg-white p-4 rounded shadow space-y-3">
+        <!-- Messages inserted here -->
+         
+      </div>
+  
+      <!-- Quick reply buttons -->
+      <div id="quickReplies" class="quick-replies overflow-x-auto whitespace-nowrap flex space-x-2 p-2 bg-white rounded shadow mb-2 max-w-full" ></div>
+  
+      <!-- Input Form -->
+      <form class="flex" onsubmit="sendMessage(); return false;">
+        <input type="text" id="messageInput" class="flex-1 p-2 border border-gray-300 rounded-l focus:outline-none" placeholder="Type your message..." />
+        <button type="submit" class="bg-blue-300 text-black font-semibold px-4 py-2 rounded-full shadow">Send</button>
+
+      </form>
+    </div>
+  
+    <script src="app.js"></script>
+  </body>
+
+</html>

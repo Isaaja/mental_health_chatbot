@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.0.1",
+    "@types/express": "^5.0.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  }
+}
